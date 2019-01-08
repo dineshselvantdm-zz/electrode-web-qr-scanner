@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Demo Buttons should shallow render demo button component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DemoButtons />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h6
+          styleName="custom.docs-header"
+        >
+          demo CSS modules with buttons from 
+          <a
+            href="https://milligram.io/"
+          >
+            milligram
+          </a>
+        </h6>,
+        <div
+          styleName="custom.docs-example"
+        >
+          <a
+            href="#"
+            styleName="milligram.button"
+          >
+            Anchor button
+          </a>
+          <button>
+            Button element
+          </button>
+          <input
+            type="submit"
+            value="submit input"
+          />
+          <input
+            type="button"
+            value="button input"
+          />
+        </div>,
+        <div
+          styleName="custom.docs-example"
+        >
+          <a
+            href="#"
+            styleName="milligram.button milligram.button-outline"
+          >
+            Anchor button
+          </a>
+          <button
+            styleName="milligram.button-outline"
+          >
+            Button element
+          </button>
+          <input
+            styleName="milligram.button-outline"
+            type="submit"
+            value="submit input"
+          />
+          <input
+            styleName="milligram.button-outline"
+            type="button"
+            value="button input"
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "demo CSS modules with buttons from ",
+            <a
+              href="https://milligram.io/"
+            >
+              milligram
+            </a>,
+          ],
+          "styleName": "custom.docs-header",
+        },
+        "ref": null,
+        "rendered": Array [
+          "demo CSS modules with buttons from ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "milligram",
+              "href": "https://milligram.io/",
+            },
+            "ref": null,
+            "rendered": "milligram",
+            "type": "a",
+          },
+        ],
+        "type": "h6",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+              styleName="milligram.button"
+            >
+              Anchor button
+            </a>,
+            <button>
+              Button element
+            </button>,
+            <input
+              type="submit"
+              value="submit input"
+            />,
+            <input
+              type="button"
+              value="button input"
+            />,
+          ],
+          "styleName": "custom.docs-example",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Anchor button",
+              "href": "#",
+              "styleName": "milligram.button",
+            },
+            "ref": null,
+            "rendered": "Anchor button",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Button element",
+            },
+            "ref": null,
+            "rendered": "Button element",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "type": "submit",
+              "value": "submit input",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "type": "button",
+              "value": "button input",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="#"
+              styleName="milligram.button milligram.button-outline"
+            >
+              Anchor button
+            </a>,
+            <button
+              styleName="milligram.button-outline"
+            >
+              Button element
+            </button>,
+            <input
+              styleName="milligram.button-outline"
+              type="submit"
+              value="submit input"
+            />,
+            <input
+              styleName="milligram.button-outline"
+              type="button"
+              value="button input"
+            />,
+          ],
+          "styleName": "custom.docs-example",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Anchor button",
+              "href": "#",
+              "styleName": "milligram.button milligram.button-outline",
+            },
+            "ref": null,
+            "rendered": "Anchor button",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Button element",
+              "styleName": "milligram.button-outline",
+            },
+            "ref": null,
+            "rendered": "Button element",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "styleName": "milligram.button-outline",
+              "type": "submit",
+              "value": "submit input",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "styleName": "milligram.button-outline",
+              "type": "button",
+              "value": "button input",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h6
+            styleName="custom.docs-header"
+          >
+            demo CSS modules with buttons from 
+            <a
+              href="https://milligram.io/"
+            >
+              milligram
+            </a>
+          </h6>,
+          <div
+            styleName="custom.docs-example"
+          >
+            <a
+              href="#"
+              styleName="milligram.button"
+            >
+              Anchor button
+            </a>
+            <button>
+              Button element
+            </button>
+            <input
+              type="submit"
+              value="submit input"
+            />
+            <input
+              type="button"
+              value="button input"
+            />
+          </div>,
+          <div
+            styleName="custom.docs-example"
+          >
+            <a
+              href="#"
+              styleName="milligram.button milligram.button-outline"
+            >
+              Anchor button
+            </a>
+            <button
+              styleName="milligram.button-outline"
+            >
+              Button element
+            </button>
+            <input
+              styleName="milligram.button-outline"
+              type="submit"
+              value="submit input"
+            />
+            <input
+              styleName="milligram.button-outline"
+              type="button"
+              value="button input"
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "demo CSS modules with buttons from ",
+              <a
+                href="https://milligram.io/"
+              >
+                milligram
+              </a>,
+            ],
+            "styleName": "custom.docs-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            "demo CSS modules with buttons from ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "milligram",
+                "href": "https://milligram.io/",
+              },
+              "ref": null,
+              "rendered": "milligram",
+              "type": "a",
+            },
+          ],
+          "type": "h6",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+                styleName="milligram.button"
+              >
+                Anchor button
+              </a>,
+              <button>
+                Button element
+              </button>,
+              <input
+                type="submit"
+                value="submit input"
+              />,
+              <input
+                type="button"
+                value="button input"
+              />,
+            ],
+            "styleName": "custom.docs-example",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Anchor button",
+                "href": "#",
+                "styleName": "milligram.button",
+              },
+              "ref": null,
+              "rendered": "Anchor button",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Button element",
+              },
+              "ref": null,
+              "rendered": "Button element",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "type": "submit",
+                "value": "submit input",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "type": "button",
+                "value": "button input",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="#"
+                styleName="milligram.button milligram.button-outline"
+              >
+                Anchor button
+              </a>,
+              <button
+                styleName="milligram.button-outline"
+              >
+                Button element
+              </button>,
+              <input
+                styleName="milligram.button-outline"
+                type="submit"
+                value="submit input"
+              />,
+              <input
+                styleName="milligram.button-outline"
+                type="button"
+                value="button input"
+              />,
+            ],
+            "styleName": "custom.docs-example",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Anchor button",
+                "href": "#",
+                "styleName": "milligram.button milligram.button-outline",
+              },
+              "ref": null,
+              "rendered": "Anchor button",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Button element",
+                "styleName": "milligram.button-outline",
+              },
+              "ref": null,
+              "rendered": "Button element",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "styleName": "milligram.button-outline",
+                "type": "submit",
+                "value": "submit input",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "styleName": "milligram.button-outline",
+                "type": "button",
+                "value": "button input",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
