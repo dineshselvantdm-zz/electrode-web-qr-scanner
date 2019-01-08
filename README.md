@@ -1,18 +1,18 @@
-# tbd [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Hello World
+# electrode-jest-enzyme-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> Hello World with Jest and Enzyme
 
 ## Installation
 
 ```sh
-$ npm install --save tbd
+$ npm install --save electrode-jest-enzyme-app
 ```
 
 ## Usage
 
 ```js
-var tbd = require('tbd');
+var myApp = require('electrode-jest-enzyme-app');
 
-tbd('Rainbow');
+myApp('Rainbow');
 ```
 ## License
 
