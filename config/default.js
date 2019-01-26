@@ -51,7 +51,7 @@ module.exports = {
     webapp: {
       module: "electrode-react-webapp/lib/hapi",
       options: {
-        pageTitle: "tbd",
+        pageTitle: "Electrode QR Scanner Web",
         insertTokenIds: false,
         paths: {
           "/{args*}": {
@@ -63,7 +63,7 @@ module.exports = {
       }
     }, //
     "electrode-cookies/hapi-plugin": {}
-    // 
+    //
   },
   connections: {
     default: {
