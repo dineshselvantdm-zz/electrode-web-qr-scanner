@@ -23,8 +23,8 @@
   },
   "license": "ISC",
   "engines": {
-    "node": ">= 8",
-    "npm": ">= 5"
+    "node": "10.15.0",
+    "npm": "6.x"
   },
   "scripts": {
     "build": "clap build",
