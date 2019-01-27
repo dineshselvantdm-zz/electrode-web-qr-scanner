@@ -21,7 +21,6 @@ import custom from "../styles/custom.css"; // eslint-disable-line no-unused-vars
 import electrodePng from "../images/electrode.png";
 import DemoStates from "./demo-states";
 import DemoPureStates from "./demo-pure-states";
-import QRCodeScanner from "./qr-code-scanner";
 import { DemoButtons } from "./demo-buttons";
 import { Nav } from "./nav";
 
@@ -54,7 +53,7 @@ class Home extends React.Component {
         </section>
 
         <div styleName={"custom.docs-section"}>
-          <QRCodeScanner />
+
         </div>
 
         <div styleName={"custom.docs-section"}>
