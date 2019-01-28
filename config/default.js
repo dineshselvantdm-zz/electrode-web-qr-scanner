@@ -54,6 +54,9 @@ module.exports = {
         pageTitle: "Electrode QR Scanner Web",
         insertTokenIds: false,
         serverSideRendering: false,
+        unbundledJS: {
+          enterHead: ["{{readFile:config/override.js}}"]
+        },
         paths: {
           "/{args*}": {
             content: {
