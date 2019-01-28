@@ -53,6 +53,7 @@ module.exports = {
       options: {
         pageTitle: "Electrode QR Scanner Web",
         insertTokenIds: false,
+        serverSideRendering: false,
         paths: {
           "/{args*}": {
             content: {
@@ -79,3 +80,4 @@ module.exports = {
     }
   }
 };
+
