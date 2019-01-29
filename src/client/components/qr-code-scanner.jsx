@@ -5,7 +5,7 @@ import QrReader from 'react-qr-reader';
  * Demo for qr code scanner
  */
 const qRContainer = {
-  paddingBottom: "120px"
+  paddingBottom: "100px"
 }
 
 const qRvalue = {
@@ -33,8 +33,8 @@ class QRCodeScanner extends React.Component {
   }
   render(){
     const previewStyle = {
-      height: 240,
-      width: 320,
+      maxHeight: 240,
+      maxWidth: 320,
     }
 
     return(
